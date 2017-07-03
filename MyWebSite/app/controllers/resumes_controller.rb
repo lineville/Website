@@ -12,6 +12,10 @@ class ResumesController < ApplicationController
   def show
   end
 
+  def liam_resume
+    render ('liam_resume')
+  end
+
   # GET /resumes/new
   def new
     @resume = Resume.new
