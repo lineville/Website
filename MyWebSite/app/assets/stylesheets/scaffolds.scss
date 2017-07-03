@@ -1,16 +1,13 @@
 body {
   background-color: rgb(47, 153, 178);
-  opacity: 100%;
   color: #333;
   margin: 33px;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   line-height: 18px;
-  text-align: center;
 }
 
-
-.header {
+h1 {
   font-family: 'Raleway', sans-serif;
   color: rgb(32, 229, 255);
   padding: 20px, 20px;
@@ -18,12 +15,17 @@ body {
   font-size: 32px;
 }
 
-
+.back {
+  text-align: left;
+  padding: 10px 10px;
+  margin-left: 30px;
+}
 p, ol, ul, td {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   line-height: 18px;
   list-style: none;
+
 
 }
 
@@ -37,6 +39,7 @@ a {
   color: #000;
   text-decoration: none;
   padding: 20px 20px;
+
   &:visited {
     color: #666;
   }
@@ -79,7 +82,6 @@ div {
   background-color: #f0f0f0;
 
   h2 {
-    font-family: 'Fresca', sans-serif;
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
@@ -91,7 +93,7 @@ div {
 
   ul li {
     font-size: 12px;
-    list-style:unset;
+    list-style: square;
   }
 }
 
