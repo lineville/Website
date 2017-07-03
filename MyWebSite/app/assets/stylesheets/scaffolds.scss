@@ -30,13 +30,15 @@ pre {
   font-size: 11px;
 }
 
+
 a {
-  color: #FFF;
+  //color: #FFF;
   text-decoration: none;
   padding: 20px 20px;
+  color: #333;
 
   &:visited {
-    color: #666;
+    //color: #666;
   }
 
   &:hover {
