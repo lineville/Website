@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .image_list {
-  background-color: rgb(32, 212, 255);
+  background-color: #B1B7B9;
   margin-left: 50px;
   margin-right: 50px;
   padding-top: 20px;
@@ -11,8 +11,7 @@
 }
 
 .back {
-  text-align: left;
-  padding-left: 15px;
-  padding-right: 15px;
-  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
