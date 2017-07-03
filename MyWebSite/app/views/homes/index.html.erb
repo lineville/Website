@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Fresca|Raleway" rel="stylesheet">
   </head>
   <body>
     <p id="notice"><%= notice %></p>
-
+    <div class="header">
     <h1>Liam's Home Page</h1>
-
+  </div>
     <!--<table>
       <thead>
         <tr>
@@ -26,8 +27,10 @@
         <% end %>
       </tbody>
     </table>-->
-
-    <%= link_to 'Photos', photos_path %>
-    <%= link_to 'About Me', about_mes_path %>
+    <div class="links">
+        <%= link_to 'Photos', photos_path %>
+        <%= link_to 'About Me', about_mes_path %>
+  </div>
   </body>
+
 </html>
