@@ -1,9 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+README
 
-Things you may want to cover:
+This is a rails projects for developing my personal website.
+This only contains a few scaffolds and probably doesn't need to be
+built on rails but I've done so for practice. Domain is not public yet.
+
+Specs:
 
 * Ruby version 2.4.1
 
@@ -28,17 +31,18 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+mysql database integration for table migrations
 
 * Database initialization
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+--auto tests created from rails defaults
 
 * Deployment instructions
 
 * Github: cd into Desktop/Ruby/Sites
           * git init
           * git add MyWebSite
-          * git remote add source https://github.com/lineville/Website
+          * git commit -m "message"
           * git push source -u
+          public Github repo: https://github.com/lineville/Website
