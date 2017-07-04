@@ -7,6 +7,15 @@ body {
   line-height: 18px;
 }
 
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: #727272;
+}
 h1 {
   font-family: 'Raleway', sans-serif;
   color: rgb(32, 229, 255);
@@ -35,7 +44,7 @@ a {
   //color: #FFF;
   text-decoration: none;
   padding: 20px 20px;
-  color: #333;
+  color: #000;
   border-width: thin;
   border-color: #a0a5aa;
   //border: visible;
