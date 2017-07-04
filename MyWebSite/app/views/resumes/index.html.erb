@@ -11,44 +11,21 @@
 
 
 <div class="back">
-  <%= link_to 'Back to Home', homes_path %>
+  <%= link_to 'Home', homes_path %>
 </div>
 
-<h1>My Resume</h1>
-<hr width="90%" height="5px" align="left" color="#FF20D7">
-<br>
-<div class="links">
-  <a href="liam_resume.html" target="_blank">Resume (HTML)</a>
-  <a href="liam_resume.pdf" download>Resume PDF Download</a>
+  <h1>My Resume</h1>
+  <hr width="90%" height="5px" align="left" color="#FF20D7">
+  <!--<a href="liam_resume.html" target="_blank">Resume (HTML)</a>-->
+  <div class="download">
+  <a href="liam_resume.pdf" download>Click Me to Download PDF</a>
 </div>
 
 
-<!--
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @resumes.each do |resume| %>
-      <tr>
-        <td><%= link_to 'Show', resume %></td>
-        <td><%= link_to 'Edit', edit_resume_path(resume) %></td>
-        <td><%= link_to 'Destroy', resume, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
--->
 <br>
 <footer>
-<div>Icons made by
-  <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a>
-  from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
-  <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-</div>
+  Copyright Licensed By Liam Neville
 </footer>
 
 </body>
