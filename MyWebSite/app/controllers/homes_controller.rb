@@ -4,7 +4,12 @@ class HomesController < ApplicationController
   # GET /homes
   # GET /homes.json
   def index
-    @homes = Home.all
+    render('index')
+    #@homes = Home.all
+  end
+
+  def index2
+    render('index2')
   end
 
   # GET /homes/1

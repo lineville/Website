@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(47, 153, 178);
+  background-image: url('tile_back.jpeg');
+  //background-color: rgb(47, 153, 178);
   color: #333;
   margin: 33px;
   font-family: 'Raleway', sans-serif;
@@ -53,11 +54,11 @@ pre {
 a {
   //color: #FFF;
   text-decoration: none;
-  padding: 20px 20px;
+  padding: 15px 15px;
   color: #000;
   border-width: thin;
   border-color: #a0a5aa;
-  border-radius: 25px;
+  border-radius: 15px;
   //border: visible;
   //border-style: solid;
 
@@ -69,6 +70,8 @@ a {
   &:hover {
     color: #FFF;
     background-color: rgb(32, 229, 255);
+    width: 100%;
+    height: 100%;
   }
 }
 

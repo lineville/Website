@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :about_mes
   resources :homes
   # Creates for index, show, new, edit, create, update and destroy actions
+  root 'homes#index'
+
   get 'home' => 'homes#index'
 
   get 'photos' => 'photos#index'

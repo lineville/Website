@@ -20,10 +20,12 @@
 }
 
 .resume {
-  background-color: #d4d6d8;
+  background-color: #FFF;
   margin-left: 0px;
   margin-right: 120px;
   padding: 15px 15px;
+  border-radius: 25px;
+  border: 3px solid #000;
 }
 
 .place {
@@ -35,6 +37,14 @@
   padding-top: 5px;
   padding-bottom: 5px;
   width: 50%;
+}
+
+.links {
+  align-items: center;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .job {
