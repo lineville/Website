@@ -2,19 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .image_list {
-  background-color: #B1B7B9;
-  margin-left: 30px;
-  margin-right: 120px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  align-items: center;
-}
-
-.image_list {
-  display: inline-block;
-  vertical-align: top;
-  background-size: cover;
+  border-width: thin;
+  border-color: #000;
   background-color: #FFF;
+  //margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: table;
 }
 
 .links {
