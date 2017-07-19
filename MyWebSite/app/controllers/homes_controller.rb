@@ -8,7 +8,7 @@ class HomesController < ApplicationController
     #@homes = Home.all
   end
 
-  def index2s
+  def index2
     render('index2')
   end
 
