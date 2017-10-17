@@ -1,0 +1,298 @@
+/* line 5, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/about_mes.scss */
+.about_text {
+  background-color: #FFF;
+  margin-left: 0px;
+  margin-right: 120px;
+  padding: 15px 15px;
+  line-height: 1.5em;
+  border-radius: 25px;
+  border: 3px solid #000;
+}
+
+/* line 16, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/about_mes.scss */
+.links {
+  align-items: center;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* line 24, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/about_mes.scss */
+.text {
+  font-size: 14px;
+  line-height: 1.5em;
+  padding-left: 80px;
+}
+
+/* line 30, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/about_mes.scss */
+.questions {
+  font-family: 'Dosis', sans-serif;
+  border-radius: 25px;
+  border: 3px solid #ff8330;
+  background-color: #FFF;
+  border-width: thin;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+}
+/* line 2, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/homes.scss */
+.links {
+  align-items: center;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* line 10, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/homes.scss */
+.header {
+  text-align: center;
+  color: #20e5ff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 20, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/homes.scss */
+.name {
+  font-size: 80px;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+}
+
+/* line 26, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/homes.scss */
+.subhead {
+  padding-top: 40px;
+  font-size: 28px;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  white-space: nowrap;
+}
+
+/* line 34, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/homes.scss */
+.icons {
+  padding-top: 15px;
+}
+/* line 4, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/photos.scss */
+.image_list {
+  border-width: thin;
+  border-color: #000;
+  align-self: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+/* line 15, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/photos.scss */
+.links {
+  align-items: center;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* line 5, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.download {
+  font-size: 20px;
+  position: absolute;
+  right: 120px;
+  top: 160px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-right: 40px;
+  background-size: 120%;
+}
+
+/* line 16, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.resume {
+  background-color: #FFF;
+  margin-left: 0px;
+  margin-right: 120px;
+  padding: 15px 15px;
+  border-radius: 25px;
+  border: 3px solid #000;
+}
+
+/* line 25, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.place {
+  border-radius: 25px;
+  border: 3px solid #ff8330;
+  background-color: #FFF;
+  border-width: thin;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+}
+
+/* line 36, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.links {
+  align-items: center;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* line 44, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.job {
+  font-family: 'Dosis', sans-serif;
+}
+
+/* line 48, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/resumes.scss */
+.myname {
+  font-size: 40px;
+}
+/* line 1, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-image: url(/assets/tile_back-d03f7659d373b9919480e45f8f488ea5fd14dd5474ceb654d1de3ca3f06d6e7c.jpg);
+  color: #333;
+  margin: 33px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 12, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: #727272;
+}
+
+/* line 22, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #20e5ff;
+  padding: 20px, 20px;
+  border: 5px, 5px;
+  font-size: 40px;
+}
+
+/* line 30, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+.back {
+  font-size: 24px;
+}
+
+/* line 33, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 5px 5px;
+  width: 50%;
+  word-spacing: 5px;
+}
+
+/* line 42, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  list-style: none;
+}
+
+/* line 51, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 58, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+a {
+  text-decoration: none;
+  padding: 15px 15px;
+  color: #FFF;
+  border-width: thin;
+  border-color: #a0a5aa;
+  border-radius: 15px;
+}
+/* line 74, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #FFF;
+  background-color: #20e5ff;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 82, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 88, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 93, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 98, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 102, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 108, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 115, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 127, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: none;
+}
+
+/* line 133, /Users/owner/Desktop/cs/ruby/Sites/MyWebSite/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

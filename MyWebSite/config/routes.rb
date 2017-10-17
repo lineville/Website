@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :coles
   resources :photos
   resources :about_mes
   resources :homes
